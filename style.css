@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+                *{
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                }
+                    body{
+                        background-color: darkslategray;
+                    }
+                     header{
+                        padding: 40px;
+                        border-bottom: 2px solid #333;
+                        background-color: black;
+                     }
+                    header div{
+                        text-align: center;
+                    }
+                    header div a{
+                        color: yellowgreen;
+                        font-size: 24px;
+                        line-height: 32px;
+                        margin: 0 16px; 
+                        text-decoration: none;
+                        font-family: "Iosevka Charon", monospace;
+                    }
+                header div a:hover{
+                    color: yellow;
+                    transition: color 700ms;
+                }
