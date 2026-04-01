@@ -1,29 +1,115 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+                @import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
                 *{
                     margin: 0;
                     padding: 0;
                     border: 0;
                 }
+
                     body{
                         background-color: darkslategray;
                     }
-                     header{
+
+                        header{
                         padding: 40px;
                         border-bottom: 2px solid #333;
-                        background-color: black;
+                        background-color: black
                      }
-                    header div{
+                            header div{
+                        text-align: center;
+                    }                                   
+                        
+                        #box {
+                            text-align: center;
+                            padding: 32px;
+                        }
+                        #box img {
+                            border-radius: 50%;
+                            border: 5px solid;
+                            margin-bottom: 32px;
+                        }
+                            
+                        #box h1 {
+                            font-size: 40px;
+                            line-height: 52px;
+                            font-weight: bold;
+                        }
+                        #box h2 {
+                            font-size: 26px;
+                            line-height: 34px;
+                            font-weight: normal;
+                            margin-top: 8px;
+                            opacity: 0.8;
+                        }
+
+                        #box p {
+                            max-width: 500px;
+                            margin: 32px auto;
+                            font-size: 24px;
+                            line-height: 34px;
+                        }                        
+
+                            div class 
+                    .links {
                         text-align: center;
                     }
-                    header div a{
+
+                        .links a {
+                        color: yellow;
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin: 0 16px;
+                        text-decoration: none;
+                    }         
+                    .links a:hover {
+                        color: var(--subcor);
+                        transition: 600ms;
+                        font-size: 23px;
+                    }
+
+                            header div a{
                         color: yellowgreen;
                         font-size: 24px;
                         line-height: 32px;
                         margin: 0 16px; 
                         text-decoration: none;
                         font-family: "Iosevka Charon", monospace;
+                     font-family: "Iosevka Charon Mono", monospace;
                     }
-                header div a:hover{
+
+                        header div a:hover{
                     color: yellow;
                     transition: color 700ms;
                 }
+
+                        div id 
+                        #box h1 {
+                            padding: 4px;
+                        }
+                        #box h1 {
+                            padding: 10px;
+                        }
+                        #box p:hover {
+                            font-size: 23px;
+                        }
+                        #box a {
+                            color: var(--subcor);
+                            transition: 600ms;
+                        }
+                        
+                        div id class
+                        #linksFooter{
+                            padding-top: 32px;
+                        }
+                        #linksFooter a{
+                            padding-top:32px;
+                            padding-bottom: 8px;
+                            border-bottom:3px solid var(--subcor);
+                        }
+
+
+
+
